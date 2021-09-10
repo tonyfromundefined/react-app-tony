@@ -1,0 +1,59 @@
+{
+  "name": "concurrency",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "react-app-rewired build",
+    "dev": "react-app-rewired start",
+    "test": "react-app-rewired test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.31.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/testing-library__jest-dom": "^5.14.1",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "customize-cra": "^1.0.0",
+    "eslint": "^7.11.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.0",
+    "react-app-rewired": "^2.1.8",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.2",
+    "web-vitals": "^1.0.1"
+  },
+  "packageManager": "yarn@3.0.2"
+}
