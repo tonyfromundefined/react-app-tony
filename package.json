@@ -1,29 +1,11 @@
 {
-  "name": "concurrency",
+  "name": "react-app-tony",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "react-app-rewired build",
-    "dev": "react-app-rewired start",
+    "start": "react-app-rewired start",
     "test": "react-app-rewired test"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "dependencies": {
     "react": "^17.0.2",
