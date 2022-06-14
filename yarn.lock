@@ -31,7 +31,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.16.0, @babel/core@npm:^7.17.10":
+"@babel/core@npm:*, @babel/core@npm:^7.16.0, @babel/core@npm:^7.17.10":
   version: 7.18.5
   resolution: "@babel/core@npm:7.18.5"
   dependencies:
@@ -646,7 +646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-flow@npm:^7.17.12":
+"@babel/plugin-syntax-flow@npm:*, @babel/plugin-syntax-flow@npm:^7.17.12":
   version: 7.17.12
   resolution: "@babel/plugin-syntax-flow@npm:7.17.12"
   dependencies:
@@ -1123,7 +1123,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:^7.16.7, @babel/plugin-transform-react-jsx@npm:^7.17.12, @babel/plugin-transform-react-jsx@npm:^7.17.3":
+"@babel/plugin-transform-react-jsx@npm:*, @babel/plugin-transform-react-jsx@npm:^7.16.7, @babel/plugin-transform-react-jsx@npm:^7.17.12, @babel/plugin-transform-react-jsx@npm:^7.17.3":
   version: 7.17.12
   resolution: "@babel/plugin-transform-react-jsx@npm:7.17.12"
   dependencies:
@@ -2854,16 +2854,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.11.16":
-  version: 0.11.23
-  resolution: "esbuild@npm:0.11.23"
-  bin:
-    esbuild: bin/esbuild
-  checksum: d55bea84f94e7854fa6fb013ffc63747f2286001b3d73c2a7beb605e6e4847c24ff2cde0660f03045d06d083695c8082423b007a9ee8687e70b52719458bfdd6
-  languageName: node
-  linkType: hard
-
-"esbuild@npm:^0.14.27":
+"esbuild@npm:^0.14.43":
   version: 0.14.43
   resolution: "esbuild@npm:0.14.43"
   dependencies:

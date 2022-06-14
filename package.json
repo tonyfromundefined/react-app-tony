@@ -5,6 +5,9 @@
     "build": "vite build",
     "dev": "vite --host 0.0.0.0"
   },
+  "resolutions": {
+    "esbuild": "^0.14.43"
+  },
   "dependencies": {
     "react": "^18.1.0",
     "react-dom": "^18.1.0"

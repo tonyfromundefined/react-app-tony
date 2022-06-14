@@ -3155,7 +3155,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@vanilla-extract/integration", "npm:5.0.0"],\
             ["@vanilla-extract/css", "npm:1.7.2"],\
-            ["esbuild", "npm:0.11.23"],\
+            ["esbuild", "npm:0.14.43"],\
             ["eval", "npm:0.1.6"],\
             ["find-up", "npm:5.0.0"],\
             ["javascript-stringify", "npm:2.1.0"],\
@@ -4196,13 +4196,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["esbuild", [\
-        ["npm:0.11.23", {\
-          "packageLocation": "./.yarn/unplugged/esbuild-npm-0.11.23-3c7e5ace5a/node_modules/esbuild/",\
-          "packageDependencies": [\
-            ["esbuild", "npm:0.11.23"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.14.43", {\
           "packageLocation": "./.yarn/unplugged/esbuild-npm-0.14.43-fea69ee59d/node_modules/esbuild/",\
           "packageDependencies": [\
@@ -4672,8 +4665,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/eslint-plugin-flowtype-virtual-f2e1742574/0/cache/eslint-plugin-flowtype-npm-8.0.3-a302f4e4fe-30e63c5357.zip/node_modules/eslint-plugin-flowtype/",\
           "packageDependencies": [\
             ["eslint-plugin-flowtype", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:8.0.3"],\
-            ["@babel/plugin-syntax-flow", null],\
-            ["@babel/plugin-transform-react-jsx", null],\
+            ["@babel/core", "npm:7.18.5"],\
+            ["@babel/plugin-syntax-flow", "virtual:8bc56e3f7f8aeea5a9f1689af5b44b102fe52310319c1fae843ab477124794e7edd8e577e4350acc0980da8f3eaa8d489db51a38469a56dfcfdd7e3fdc8afe0b#npm:7.17.12"],\
+            ["@babel/plugin-transform-react-jsx", "virtual:a56965d8b400451f00ceda8c28b6d7890738dc4016b07bea8033810edffcff9dcf2cb4c8055a9777d723ec96b81722756fd2179e10bcb6fc71481b1eb5a6c602#npm:7.17.12"],\
             ["@types/babel__plugin-syntax-flow", null],\
             ["@types/babel__plugin-transform-react-jsx", null],\
             ["@types/eslint", null],\
@@ -4682,8 +4676,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string-natural-compare", "npm:3.0.1"]\
           ],\
           "packagePeers": [\
-            "@babel/plugin-syntax-flow",\
-            "@babel/plugin-transform-react-jsx",\
             "@types/babel__plugin-syntax-flow",\
             "@types/babel__plugin-transform-react-jsx",\
             "@types/eslint",\
