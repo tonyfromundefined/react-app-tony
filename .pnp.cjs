@@ -50,6 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:7.30.0"],\
             ["eslint-plugin-react-hooks", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:4.5.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:7.0.0"],\
+            ["normalize.css", "npm:8.0.1"],\
             ["prettier", "npm:2.7.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:18.1.0"],\
@@ -6315,6 +6316,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["normalize.css", [\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/normalize.css-npm-8.0.1-6124fb39b6-4698cae88e.zip/node_modules/normalize.css/",\
+          "packageDependencies": [\
+            ["normalize.css", "npm:8.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["npmlog", [\
         ["npm:6.0.2", {\
           "packageLocation": "./.yarn/cache/npmlog-npm-6.0.2-e0e69455c7-ae238cd264.zip/node_modules/npmlog/",\
@@ -6759,6 +6769,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:7.30.0"],\
             ["eslint-plugin-react-hooks", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:4.5.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:7.0.0"],\
+            ["normalize.css", "npm:8.0.1"],\
             ["prettier", "npm:2.7.0"],\
             ["react", "npm:18.1.0"],\
             ["react-dom", "virtual:f6a4e078b59ed584028990855c88694724ce677f29c641fd19f860c29c9f393e9122bfe55fc4fb4c14f3a50c8d0e27891b456ba70a9c66a84bceedccca696d28#npm:18.1.0"],\

@@ -4,6 +4,15 @@ module.exports = {
   extends: ["react-app", "react-app/jest", "airbnb", "prettier"],
   plugins: ["json-format", "simple-import-sort"],
   rules: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
+    "react/function-component-definition": [
+      2,
+      { namedComponents: "arrow-function" },
+    ],
     "react/jsx-filename-extension": [
       1,
       {
