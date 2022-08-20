@@ -1,10 +1,11 @@
-# 🔥 React App Boilerplate
+# 🔥 React App Tony
 
-by Tony
-
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
+# Install dependencies
+$ yarn
+
 # Start development server
 $ yarn dev
 
@@ -12,7 +13,7 @@ $ yarn dev
 $ yarn build
 ```
 
-## 🔨 Using
+## Using
 
 - React 18
 - Vanilla Extract
